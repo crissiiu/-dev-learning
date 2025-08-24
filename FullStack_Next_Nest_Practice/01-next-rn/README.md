@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Fullstack React/Node.js JWT Template
 
-## Getting Started
+Template này được sử dụng cho video fullstack React/Node.js JWT của tác giả **Hỏi Dân IT (Eric)** và được thực hành lại bởi **Crissiiu**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️ Môi trường chạy dự án
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js: **v20.14.0**  
+  👉 Tải tại: [https://nodejs.org/download/release/v20.14.0/](https://nodejs.org/download/release/v20.14.0/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Hướng dẫn cài đặt & chạy dự án
 
-## Learn More
+### 🔹 Chế độ Development
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone code:
+   ```bash
+   git clone https://github.com/crissiiu/-dev-learning.git
+   cd FullStack_Next_Nest_Practice/01-next-rn
+   ```
+2. Cài đặt thư viện:
+   ```bash
+   npm install
+   ```
+3. Cập nhật file `.env.development` (nếu cần thiết).
+4. Chạy dự án:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔹 Chế độ Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone code:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+2. Cài đặt thư viện:
+   ```bash
+   npm install
+   ```
+3. Cập nhật file `.env.production` (nếu cần thiết).
+4. Build & chạy dự án:
+   ```bash
+   npm run build
+   npm run preview
+   ```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Về tác giả
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Mọi thông tin về tác giả **Hỏi Dân IT** có thể tìm tại:
+
+- 🌐 Website: [https://hoidanit.vn](https://hoidanit.vn)
+- ▶️ Youtube: [https://www.youtube.com/@hoidanit](https://www.youtube.com/@hoidanit)
+- 🎵 TikTok: [https://www.tiktok.com/@hoidanit](https://www.tiktok.com/@hoidanit)
+- 👍 Fanpage: [https://www.facebook.com/askITwithERIC](https://www.facebook.com/askITwithERIC)
+
+---
+
+# 🚀 Fullstack React/Node.js JWT Template
+
+Template này được sử dụng cho video fullstack React/Node.js JWT của tác giả **Hỏi Dân IT (Eric)**.
+
+---
+
+## ⚙️ Môi trường chạy dự án
+
+- Node.js: **v20.14.0**  
+  👉 Tải tại: [https://nodejs.org/download/release/v20.14.0/](https://nodejs.org/download/release/v20.14.0/)
+
+---
