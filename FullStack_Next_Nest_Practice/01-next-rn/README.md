@@ -1,6 +1,6 @@
-# 🚀 Fullstack React/Node.js JWT Template
+# 🚀 Fullstack Next.js JWT Template
 
-Template này được sử dụng cho video fullstack React/Node.js JWT của tác giả **Hỏi Dân IT (Eric)** và được thực hành lại bởi **Crissiiu**
+Template này được sử dụng cho video fullstack Next.js JWT của tác giả **Hỏi Dân IT (Eric)** và được thực hành lại bởi **Crissiiu**
 
 ---
 
@@ -34,8 +34,8 @@ Template này được sử dụng cho video fullstack React/Node.js JWT của t
 
 1. Clone code:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/crissiiu/-dev-learning.git
+   cd FullStack_Next_Nest_Practice/01-next-rn
    ```
 2. Cài đặt thư viện:
    ```bash
