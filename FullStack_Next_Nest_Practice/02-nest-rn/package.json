@@ -2,8 +2,7 @@
   "name": "02-nest-rn",
   "version": "0.0.1",
   "description": "",
-  "author": 
-  {
+  "author": {
     "name": "Sieu Nguyen Thanh",
     "url": "https://crissiiu.com"
   },
@@ -14,7 +13,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
-    "dev":"nest start --watch",
+    "dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -26,8 +25,12 @@
   },
   "dependencies": {
     "@nestjs/common": "11.1.6",
+    "@nestjs/config": "4.0.2",
     "@nestjs/core": "11.1.6",
+    "@nestjs/mapped-types": "2.0.5",
+    "@nestjs/mongoose": "11.0.3",
     "@nestjs/platform-express": "11.1.6",
+    "mongoose": "8.18.1",
     "reflect-metadata": "0.2.2",
     "rxjs": "7.8.2"
   },
