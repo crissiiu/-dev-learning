@@ -1,0 +1,11 @@
+const bcrypt = require('bcrypt');
+//Do manh
+const saltRounds = 10;
+
+export const hasPasswordHelper = async (plainPassword: string) => {
+  try {
+    return await bcrypt.hash(plainPassword, saltRounds);
+  } catch (error) {
+    console.log(error);
+  }
+};
