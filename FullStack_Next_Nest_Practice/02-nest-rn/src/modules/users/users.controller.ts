@@ -17,7 +17,7 @@ export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @Post()
-  create(@Body() createUserDto: CreateUserDto) {
+  async create(@Body() createUserDto: CreateUserDto) {
     return this.usersService.create(createUserDto);
   }
 
@@ -35,13 +35,13 @@ export class UsersController {
     return this.usersService.findOne(+id);
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
-    return this.usersService.update(+id, updateUserDto);
+  @Patch()
+  async update(@Body() updateUserDto: UpdateUserDto) {
+    return this.usersService.update(updateUserDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.usersService.remove(+id);
+  async remove(@Param('id') id: string) {
+    return this.usersService.remove(id);
   }
 }
