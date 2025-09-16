@@ -65,8 +65,12 @@ export class UsersService {
     return { resutls, totalPages };
   }
 
-  findOne(id: number) {
+  async findOne(id: string) {
     return `This action returns a #${id} user`;
+  }
+
+  async findByEmail(email: string) {
+    return await this.userModel.findOne({ email });
   }
 
   async update(updateUserDto: UpdateUserDto) {
