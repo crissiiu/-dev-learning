@@ -15,8 +15,11 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
-  @Post()
+  @Post('login')
   create(@Body() createAuthDto: CreateAuthDto) {
-    return 'hello';
+    return this.authService.SignIn(
+      createAuthDto.username,
+      createAuthDto.password,
+    );
   }
 }
