@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Array/Array.csproj" Id="430e49da-a7bf-4d37-9e03-9f199cbd4552" />
   <Project Path="Condition/Condition.csproj" Id="efce5619-65cc-4e09-a32c-c8cfa49981f9" />
+  <Project Path="Exception/Exception.csproj" Id="fcb17916-d902-4030-9b59-2f4cb48364bd" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
   <Project Path="Method/Method.csproj" Id="f5aed835-9f16-4457-bd84-99ec67d273e8" />
   <Project Path="SapXepTangDan/SapXepTangDan.csproj" Id="3d8d7853-5bf9-496b-80e8-6ff840d89236" />
